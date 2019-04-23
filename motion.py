@@ -22,17 +22,6 @@ GPIO.setup(led, GPIO.OUT)
 
 # print "The current local date time is ", datetime.datetime.now()
 
-MyDateTime = datetime.datetime.now()
-
-print("Day of month :")
-print(MyDateTime.day)
-print("Month :")
-print(MyDateTime.month)
-print("Year  :")
-print(MyDateTime.year)
-print("Hour  :")
-print(MyDateTime.hour)
-
 print("Initialzing PIR Sensor......")
 sleep(3)
 
@@ -43,8 +32,8 @@ GPIO.output(led, False)
 try:
     sleep(2) # stabilize sensor
     while True:
-        
-        if ((MyDateTime.weekday() != 6 or MyDateTime.weekday() != 7) and (MyDateTime.hour >= 8 and MyDateTime.hour <= 10)):
+        MyDateTime = datetime.datetime.now()
+        if ((MyDateTime.weekday() != 6 or MyDateTime.weekday() != 7) and (MyDateTime.hour >= 8 and MyDateTime.hour <= 11)):
             
             sleep(1)
             current_state = GPIO.input(pir_sensor)
