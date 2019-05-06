@@ -1,7 +1,7 @@
 # The Codecademy Greeterbot
 The files used for a Raspberry Pi 3 bot to greet people to the Codecademy office in the morning. 
 
-Created in collaboration with Zoe Bachman and Songqiao (Sonny) Li.
+Created in collaboration with [Zoe Bachman](https://github.com/zoebachman) and [Songqiao (Sonny) Li](https://github.com/sonnynomnom).
 
 ## Credit where credit is due:
 
