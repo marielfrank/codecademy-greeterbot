@@ -1,4 +1,4 @@
-# codecademy-greeterbot
+# The Codecademy Greeterbot
 The files used for a RaspberryPi 3 bot to greet people to the Codecademy office in the morning. 
 
 Created in collaboration with Zoe Bachman and Songqiao (Sonny) Li.
