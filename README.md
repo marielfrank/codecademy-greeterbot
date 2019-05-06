@@ -5,6 +5,8 @@ Created in collaboration with [Zoe Bachman](https://github.com/zoebachman) and [
 
 ## Credit where credit is due:
 
+The text to speech code was pulled from <a href="https://www.geeksforgeeks.org/convert-text-speech-python/" target="_blank">GeeksForGeeks</a>.
+
 The PIR sensor code solution comes from <a href="https://www.hackster.io/hardikrathod/pir-motion-sensor-with-raspberry-pi-415c04" target="_blank">Hackster.io</a>.
 
 Solution for playing audio on Raspberry Pi 3 via <a href="https://raspberrypi.stackexchange.com/questions/7088/playing-audio-files-with-python" target="_blank">Stack Exchange</a>.
